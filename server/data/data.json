@@ -1,0 +1,2375 @@
+{
+  "controls": {
+    "defaultLabourRate": 95,
+    "defaultMarginPct": 0.15,
+    "defaultContingencyPct": 0.05
+  },
+  "lists": {
+    "projectTypes": [
+      "Traffic Signals",
+      "Public Lighting",
+      "Civil Works",
+      "ITS",
+      "Maintenance",
+      "Electrical"
+    ],
+    "units": [
+      "ea",
+      "m",
+      "m2",
+      "m3",
+      "hr",
+      "day",
+      "lot",
+      "set"
+    ],
+    "categories": [
+      "Signals",
+      "Lighting",
+      "Civil",
+      "Electrical",
+      "Traffic Equipment",
+      "Commissioning",
+      "Other"
+    ],
+    "statuses": [
+      "Draft",
+      "Submitted",
+      "Accepted",
+      "Rejected",
+      "Expired"
+    ]
+  },
+  "rateLibrary": [
+    {
+      "code": "CIV-CIV-001",
+      "description": "Dial Before You Dig",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 2,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 190,
+      "notes": "Imported from LIBRARY.xlsx | Civil"
+    },
+    {
+      "code": "CIV-CON-001",
+      "description": "100mm DIA Bends Orange",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 17,
+      "benchmarkDirectCostPerUnit": 17,
+      "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-002",
+      "description": "100mm Sigots",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-003",
+      "description": "1x100 DIA Conduit - Open Cut (Dirt or Footpath)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 68.6,
+      "benchmarkDirectCostPerUnit": 80,
+      "notes": "Source: LIBRARY.xlsx | Civil | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-004",
+      "description": "1x100 DIA Conduits - Bored",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 148.6,
+      "benchmarkDirectCostPerUnit": 160,
+      "notes": "Source: LIBRARY.xlsx | Civil | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-005",
+      "description": "1x100 DIA HD Orange Conduit",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 8,
+      "benchmarkDirectCostPerUnit": 8,
+      "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-006",
+      "description": "1x125 DIA HD Orange Conduit",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 11,
+      "benchmarkDirectCostPerUnit": 11,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-007",
+      "description": "1x50 DIA HD Orange Conduit",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 2.8,
+      "benchmarkDirectCostPerUnit": 2.8,
+      "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-008",
+      "description": "1x63 DIA Conduit - Open Cut (Dirt or Footpath)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 63.6,
+      "benchmarkDirectCostPerUnit": 75,
+      "notes": "Source: LIBRARY.xlsx | Civil | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-009",
+      "description": "1x63 DIA Conduits - Bored",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 168.6,
+      "benchmarkDirectCostPerUnit": 180,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-010",
+      "description": "1x63 DIA Conduits - Open Cut (Dirt or Footpath)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 63.6,
+      "benchmarkDirectCostPerUnit": 75,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-011",
+      "description": "1x63 DIA Conduits - Open Cut (Road)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 308.6,
+      "benchmarkDirectCostPerUnit": 320,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-012",
+      "description": "1x63 DIA HD Orange Conduit",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 3.25,
+      "benchmarkDirectCostPerUnit": 3.25,
+      "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-013",
+      "description": "2x100 DIA Conduits - Bored",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 138.6,
+      "benchmarkDirectCostPerUnit": 150,
+      "notes": "Source: LIBRARY.xlsx | Civil | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-014",
+      "description": "2x100 DIA Conduits - Open Cut (Dirt or Footpath)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 78.6,
+      "benchmarkDirectCostPerUnit": 90,
+      "notes": "Source: LIBRARY.xlsx | Civil | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-015",
+      "description": "2x100 DIA Conduits - Open Cut (Road)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 388.6,
+      "benchmarkDirectCostPerUnit": 400,
+      "notes": "Source: LIBRARY.xlsx | Civil | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-016",
+      "description": "2x125 DIA Conduits - Open Cut (Road)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 108.6,
+      "benchmarkDirectCostPerUnit": 120,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-017",
+      "description": "4x125 DIA Conduits - Open Cut (Dirt or Footpath)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 118.6,
+      "benchmarkDirectCostPerUnit": 130,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-018",
+      "description": "50mm DIA Bends Orange",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 5,
+      "benchmarkDirectCostPerUnit": 5,
+      "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-019",
+      "description": "50mm Spigots",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-020",
+      "description": "63mm DIA Bends Orange",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 6,
+      "benchmarkDirectCostPerUnit": 6,
+      "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-021",
+      "description": "63mm Spigots",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-022",
+      "description": "Bedding Sand",
+      "category": "Civil",
+      "unit": "m3",
+      "labourHoursPerUnit": 0.5,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 47.5,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Primary Conduit Installation | Split: labour-only derived from source rate"
+    },
+    {
+      "code": "CIV-CON-023",
+      "description": "Conduit Install",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.5,
+      "materialPerUnit": 50,
+      "benchmarkDirectCostPerUnit": 97.5,
+      "notes": "Per metre conduit install"
+    },
+    {
+      "code": "CIV-CON-024",
+      "description": "Crushed Rock",
+      "category": "Civil",
+      "unit": "m3",
+      "labourHoursPerUnit": 0.5,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 47.5,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Primary Conduit Installation | Split: labour-only derived from source rate"
+    },
+    {
+      "code": "CIV-CON-025",
+      "description": "Draw String",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1,
+      "benchmarkDirectCostPerUnit": 1,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-026",
+      "description": "Marker Tape",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1,
+      "benchmarkDirectCostPerUnit": 1,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-CON-027",
+      "description": "Saw Cutting - Asphalt - 200mm",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 23.6,
+      "benchmarkDirectCostPerUnit": 35,
+      "notes": "Source: LIBRARY.xlsx | Civil | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CON-028",
+      "description": "Saw Cutting - Concrete - 200mm",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 16.6,
+      "benchmarkDirectCostPerUnit": 28,
+      "notes": "Source: LIBRARY.xlsx | Civil | Primary Conduit Installation | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-CTR-001",
+      "description": "Traffic Signal Controller Rag bolt",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 80,
+      "benchmarkDirectCostPerUnit": 80,
+      "notes": "Source: LIBRARY.xlsx | Civil | Rag bolts & Cages | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-DIA-001",
+      "description": "Non Destructive Digging - Pot Holing to expose services",
+      "category": "Civil",
+      "unit": "hr",
+      "labourHoursPerUnit": 1,
+      "materialPerUnit": 180,
+      "benchmarkDirectCostPerUnit": 275,
+      "notes": "Source: LIBRARY.xlsx | Civil | Dial Before You Dig | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-DRL-001",
+      "description": "450mm DIA x 2.2m Deep",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 157.5,
+      "benchmarkDirectCostPerUnit": 300,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Bore Hole Drilling | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-MGT-001",
+      "description": "Site Establishment & Management",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 10.53,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 1000.35,
+      "notes": "Source: LIBRARY.xlsx | Civil | Split: labour-only derived from source rate"
+    },
+    {
+      "code": "CIV-PED-001",
+      "description": "Electrical POS Pillar Base",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 400,
+      "benchmarkDirectCostPerUnit": 400,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pedestal & Controller Bases | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-PED-002",
+      "description": "Field Controller Base",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1500,
+      "benchmarkDirectCostPerUnit": 1500,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pedestal & Controller Bases | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-PED-003",
+      "description": "Traffic Signal Controller Base",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 900,
+      "benchmarkDirectCostPerUnit": 900,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pedestal & Controller Bases | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-PIT-001",
+      "description": "Break Into Existing Pits",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 57.5,
+      "benchmarkDirectCostPerUnit": 200,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pits (Supply & Install) | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-PIT-002",
+      "description": "Detector Loop Pits",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 107.5,
+      "benchmarkDirectCostPerUnit": 250,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pits (Supply & Install) | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-PIT-003",
+      "description": "P4 Communication Pit + Lockable Lid",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 507.5,
+      "benchmarkDirectCostPerUnit": 650,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pits (Supply & Install) | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-PIT-004",
+      "description": "Pit Install",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 4,
+      "materialPerUnit": 400,
+      "benchmarkDirectCostPerUnit": 780,
+      "notes": "Nominal pit install"
+    },
+    {
+      "code": "CIV-PIT-005",
+      "description": "Termination of all public lighting in pit (by others)",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 7600,
+      "benchmarkDirectCostPerUnit": 7600,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Contingency | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-PIT-006",
+      "description": "VESI Lighting 450 DIA Pit + Lid",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 177.5,
+      "benchmarkDirectCostPerUnit": 320,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pits (Supply & Install) | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-POL-001",
+      "description": "1x20 DIA Conduit - Open Cut (Dirt or Footpath)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 58.6,
+      "benchmarkDirectCostPerUnit": 70,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pit to Pole Conduits | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-POL-002",
+      "description": "1x50 DIA Conduit - Open Cut (Dirt or Footpath)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 63.6,
+      "benchmarkDirectCostPerUnit": 75,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pit to Pole Conduits | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-POL-003",
+      "description": "2B Pole Base",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 400,
+      "benchmarkDirectCostPerUnit": 400,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pedestal & Controller Bases | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-POL-004",
+      "description": "2x100 DIA Conduit - Open Cut (Dirt or Footpath)",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 128.6,
+      "benchmarkDirectCostPerUnit": 140,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pit to Pole Conduits | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-POL-005",
+      "description": "Concrete Bags (4No. Per pole)",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 12.5,
+      "benchmarkDirectCostPerUnit": 12.5,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | General Items | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-POL-006",
+      "description": "Drill Slip Base/Impact Pole Base",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 450,
+      "benchmarkDirectCostPerUnit": 450,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pedestal & Controller Bases | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-POL-007",
+      "description": "JUP/JUMA/MA Pole Base",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1100,
+      "benchmarkDirectCostPerUnit": 1100,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pedestal & Controller Bases | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-POL-008",
+      "description": "Type 3 Pole Base",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 400,
+      "benchmarkDirectCostPerUnit": 400,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pedestal & Controller Bases | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-RAG-001",
+      "description": "Cages",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 250,
+      "benchmarkDirectCostPerUnit": 250,
+      "notes": "Source: LIBRARY.xlsx | Civil | Rag bolts & Cages | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-RAG-002",
+      "description": "High Tensile Rag bolt",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 125,
+      "benchmarkDirectCostPerUnit": 125,
+      "notes": "Source: LIBRARY.xlsx | Civil | Rag bolts & Cages | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-RAG-003",
+      "description": "Mild Steel Rag bolt",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 80,
+      "benchmarkDirectCostPerUnit": 80,
+      "notes": "Source: LIBRARY.xlsx | Civil | Rag bolts & Cages | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-REI-001",
+      "description": "Concrete Footpath Reinstatement",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 138.6,
+      "benchmarkDirectCostPerUnit": 150,
+      "notes": "Source: LIBRARY.xlsx | Civil | Reinstatement Works | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-REI-002",
+      "description": "Concrete Footpath Strip Reinstatement",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 38.6,
+      "benchmarkDirectCostPerUnit": 50,
+      "notes": "Source: LIBRARY.xlsx | Civil | Reinstatement Works | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-REI-003",
+      "description": "Concrete Kerb Reinstatement",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 68.6,
+      "benchmarkDirectCostPerUnit": 80,
+      "notes": "Source: LIBRARY.xlsx | Civil | Reinstatement Works | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-REI-004",
+      "description": "Construct new Concrete Hard stand & Grate",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 6057.5,
+      "benchmarkDirectCostPerUnit": 6200,
+      "notes": "Source: LIBRARY.xlsx | Civil | Reinstatement Works | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-REI-005",
+      "description": "DDA Compliant Pram Crossing",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 1057.5,
+      "benchmarkDirectCostPerUnit": 1200,
+      "notes": "Source: LIBRARY.xlsx | Civil | Reinstatement Works | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-REI-006",
+      "description": "Demolish and Remove Existing Concrete Path",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 38.6,
+      "benchmarkDirectCostPerUnit": 50,
+      "notes": "Source: LIBRARY.xlsx | Civil | Reinstatement Works | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-REI-007",
+      "description": "Hot Mix Reinstatement - Footpath",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 38.6,
+      "benchmarkDirectCostPerUnit": 50,
+      "notes": "Source: LIBRARY.xlsx | Civil | Reinstatement Works | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-REI-008",
+      "description": "Hot Mix Reinstatement - Road",
+      "category": "Civil",
+      "unit": "m",
+      "labourHoursPerUnit": 0.12,
+      "materialPerUnit": 83.6,
+      "benchmarkDirectCostPerUnit": 95,
+      "notes": "Source: LIBRARY.xlsx | Civil | Reinstatement Works | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-REM-001",
+      "description": "Waste Removal and Disposal",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 957.5,
+      "benchmarkDirectCostPerUnit": 1100,
+      "notes": "Source: LIBRARY.xlsx | Civil | General Items | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-SRV-001",
+      "description": "Survey of Services",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 8.42,
+      "materialPerUnit": 0.1,
+      "benchmarkDirectCostPerUnit": 800,
+      "notes": "Source: LIBRARY.xlsx | Civil | Dial Before You Dig | Split: derived labour + residual material"
+    },
+    {
+      "code": "CIV-SUB-001",
+      "description": "Citywide",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 107062,
+      "benchmarkDirectCostPerUnit": 107062,
+      "notes": "Source: LIBRARY.xlsx | Civil | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-SUB-002",
+      "description": "Line Marking",
+      "category": "Civil",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 9950,
+      "benchmarkDirectCostPerUnit": 9950,
+      "notes": "Source: LIBRARY.xlsx | Civil | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "CIV-SUB-003",
+      "description": "Sucker Truck Hire (min 4hr charge)",
+      "category": "Civil",
+      "unit": "day",
+      "labourHoursPerUnit": 26.32,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 2500.4,
+      "notes": "Source: LIBRARY.xlsx | Civil | Subcontractors | Split: labour-only derived from source rate"
+    },
+    {
+      "code": "COM-COM-001",
+      "description": "Testing & Commissioning",
+      "category": "Commissioning",
+      "unit": "hr",
+      "labourHoursPerUnit": 1,
+      "materialPerUnit": 35,
+      "benchmarkDirectCostPerUnit": 130,
+      "notes": "Testing and commissioning"
+    },
+    {
+      "code": "ELE-CAB-001",
+      "description": "13C+E PVC/PVC Cabling",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 6,
+      "benchmarkDirectCostPerUnit": 6,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-002",
+      "description": "16mm 2C Cable",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 4.8,
+      "benchmarkDirectCostPerUnit": 4.8,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-003",
+      "description": "16mm 2C PVC/PVC",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 5,
+      "benchmarkDirectCostPerUnit": 5,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-004",
+      "description": "16mm 4C PVC/PVC",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 15,
+      "benchmarkDirectCostPerUnit": 15,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-005",
+      "description": "185mm 4C XLPE",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 28,
+      "benchmarkDirectCostPerUnit": 28,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-006",
+      "description": "19C+E PVC/PVC Cabling",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 9,
+      "benchmarkDirectCostPerUnit": 9,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-007",
+      "description": "2.5mm 2C+E PVC/PVC",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1.15,
+      "benchmarkDirectCostPerUnit": 1.15,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-008",
+      "description": "2.5mm TC+E Cable",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1.1,
+      "benchmarkDirectCostPerUnit": 1.1,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-009",
+      "description": "29C+E PVC/PVC Cabling",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 12,
+      "benchmarkDirectCostPerUnit": 12,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-010",
+      "description": "35mm 4C XLPE",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 22,
+      "benchmarkDirectCostPerUnit": 22,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-011",
+      "description": "4.0mm 1C PVC/PVC Earth",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1,
+      "benchmarkDirectCostPerUnit": 1,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-012",
+      "description": "51C+E PVC/PVC Cabling",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 19,
+      "benchmarkDirectCostPerUnit": 19,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-013",
+      "description": "6.0mm 2C PVC/PVC - XLPE",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 5,
+      "benchmarkDirectCostPerUnit": 5,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-014",
+      "description": "Cable Pulling",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0.06,
+      "materialPerUnit": 3.5,
+      "benchmarkDirectCostPerUnit": 9.2,
+      "notes": "Per metre cable pull"
+    },
+    {
+      "code": "ELE-CAB-015",
+      "description": "Loop Feeder Cable - 2Core",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 2,
+      "benchmarkDirectCostPerUnit": 2,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CAB-016",
+      "description": "Multicore Loop Feeder Cable - 3Pair",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 3.15,
+      "benchmarkDirectCostPerUnit": 3.15,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Cabling | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CON-001",
+      "description": "1x100 DIA Communication Conduit",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 7.5,
+      "benchmarkDirectCostPerUnit": 7.5,
+      "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CON-002",
+      "description": "1x20 DIA Communication Conduit",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 5,
+      "benchmarkDirectCostPerUnit": 5,
+      "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CON-003",
+      "description": "1x32 DIA Communication Conduit",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 6,
+      "benchmarkDirectCostPerUnit": 6,
+      "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CON-004",
+      "description": "1x50 DIA Communication Conduit",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 6,
+      "benchmarkDirectCostPerUnit": 6,
+      "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CON-005",
+      "description": "Overhead Connection - VESI Contractor",
+      "category": "Electrical",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CON-006",
+      "description": "POS (Inc. CES & EWR) - Overhead Connection",
+      "category": "Electrical",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 2000,
+      "benchmarkDirectCostPerUnit": 2000,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Point of Supply | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-CON-007",
+      "description": "POS (Inc. CES & EWR) - Pillar Connection",
+      "category": "Electrical",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 2300,
+      "benchmarkDirectCostPerUnit": 2300,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Point of Supply | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-JBX-001",
+      "description": "Junction Box & Resin Fill",
+      "category": "Electrical",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 55,
+      "benchmarkDirectCostPerUnit": 55,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | General Items | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-PED-001",
+      "description": "Meter Box Base",
+      "category": "Electrical",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 900,
+      "benchmarkDirectCostPerUnit": 900,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pedestal & Controller Bases | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-PED-002",
+      "description": "Public Lighting Switchboard Base",
+      "category": "Electrical",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1200,
+      "benchmarkDirectCostPerUnit": 1200,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pedestal & Controller Bases | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-PIT-001",
+      "description": "POS Connection (Inc. CES & EWR) - Pit Connection",
+      "category": "Electrical",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 750,
+      "benchmarkDirectCostPerUnit": 750,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Point of Supply | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-PIT-002",
+      "description": "Vic Roads 600 DIA Cable Pits",
+      "category": "Electrical",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.25,
+      "materialPerUnit": 481.25,
+      "benchmarkDirectCostPerUnit": 600,
+      "notes": "Source: LIBRARY.xlsx | Civil | Pits (Supply & Install) | Split: derived labour + residual material"
+    },
+    {
+      "code": "ELE-POI-001",
+      "description": "Meter Panel",
+      "category": "Electrical",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 2900,
+      "benchmarkDirectCostPerUnit": 2900,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Point of Supply | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-POL-001",
+      "description": "Relocate existing IA/Slipbase Pole",
+      "category": "Electrical",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.25,
+      "materialPerUnit": 581.25,
+      "benchmarkDirectCostPerUnit": 700,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Removal & Disconnection | Split: derived labour + residual material"
+    },
+    {
+      "code": "ELE-POL-002",
+      "description": "Removal of 11m IA/Slipbase Pole",
+      "category": "Electrical",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.25,
+      "materialPerUnit": 1031.25,
+      "benchmarkDirectCostPerUnit": 1150,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Removal & Disconnection | Split: derived labour + residual material"
+    },
+    {
+      "code": "ELE-SUB-001",
+      "description": "Bucket Truck Hire (min 4hr charge)",
+      "category": "Electrical",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-SUB-002",
+      "description": "Crane Truck Hire (min 4hr charge)",
+      "category": "Electrical",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-SUB-003",
+      "description": "Dogman Hire (min 4hr charge)",
+      "category": "Electrical",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-SUB-004",
+      "description": "Mobile Crane Borer (Peru) with operator",
+      "category": "Electrical",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-SUB-005",
+      "description": "Semi Crane Truck Hire (min 4hr charge)",
+      "category": "Electrical",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-SUB-006",
+      "description": "Spotter Hire (min 4hr charge)",
+      "category": "Electrical",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "ELE-WIR-001",
+      "description": "Catenary Wire",
+      "category": "Electrical",
+      "unit": "m",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0.6,
+      "benchmarkDirectCostPerUnit": 0.6,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | General Items | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-CON-001",
+      "description": "Straight Joint and T-Joint",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 8000,
+      "benchmarkDirectCostPerUnit": 8000,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Contingency | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-DIA-001",
+      "description": "Non Destructive Digging - Pot Holing to expose services",
+      "category": "Lighting",
+      "unit": "hr",
+      "labourHoursPerUnit": 1,
+      "materialPerUnit": 180,
+      "benchmarkDirectCostPerUnit": 275,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Dial Before You Dig | Split: derived labour + residual material"
+    },
+    {
+      "code": "LGT-FLT-001",
+      "description": "150W Flood Lights",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 150,
+      "benchmarkDirectCostPerUnit": 150,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Light Fitting | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-FLT-002",
+      "description": "250W Flood Lights",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 230,
+      "benchmarkDirectCostPerUnit": 230,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Light Fitting | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-GEN-001",
+      "description": "Services Scan",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1000,
+      "benchmarkDirectCostPerUnit": 1000,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | General Items | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-LIG-001",
+      "description": "150W HPS",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 225,
+      "benchmarkDirectCostPerUnit": 225,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Light Fitting | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-LIG-002",
+      "description": "150W HPS Under Structure Light",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 240,
+      "benchmarkDirectCostPerUnit": 240,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Light Fitting | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-LIG-003",
+      "description": "250W HPS",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 260,
+      "benchmarkDirectCostPerUnit": 260,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Light Fitting | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-LIG-004",
+      "description": "400W HPS",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 350,
+      "benchmarkDirectCostPerUnit": 350,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Light Fitting | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-LIG-005",
+      "description": "80W HPS Under Structure Light",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 140,
+      "benchmarkDirectCostPerUnit": 140,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Light Fitting | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-MGT-001",
+      "description": "As Built Drawings",
+      "category": "Lighting",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Management | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-MGT-002",
+      "description": "Project Management",
+      "category": "Lighting",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Management | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-MGT-003",
+      "description": "Site Establishment & Management",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 21.05,
+      "materialPerUnit": 0.25,
+      "benchmarkDirectCostPerUnit": 2000,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Site Establishment | Split: derived labour + residual material"
+    },
+    {
+      "code": "LGT-MGT-004",
+      "description": "VESI Site Audit",
+      "category": "Lighting",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Management | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-001",
+      "description": "0.5m Triple outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 280,
+      "benchmarkDirectCostPerUnit": 280,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-002",
+      "description": "1.0m Single Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 250,
+      "benchmarkDirectCostPerUnit": 250,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-003",
+      "description": "1.5m Single Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 265,
+      "benchmarkDirectCostPerUnit": 265,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-004",
+      "description": "1.5m/4.5m Double Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 560,
+      "benchmarkDirectCostPerUnit": 560,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-005",
+      "description": "3.0m Single Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 325,
+      "benchmarkDirectCostPerUnit": 325,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-006",
+      "description": "3.0m/3.0m Double Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 465,
+      "benchmarkDirectCostPerUnit": 465,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-007",
+      "description": "3.0m/4.5m Double Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 580,
+      "benchmarkDirectCostPerUnit": 580,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-008",
+      "description": "3.0m/5.0m Double Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 600,
+      "benchmarkDirectCostPerUnit": 600,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-009",
+      "description": "4.5m Single Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 380,
+      "benchmarkDirectCostPerUnit": 380,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-010",
+      "description": "4.5m/4.5m Double Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 690,
+      "benchmarkDirectCostPerUnit": 690,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-011",
+      "description": "5.0m Single Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 440,
+      "benchmarkDirectCostPerUnit": 440,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-OUT-012",
+      "description": "5.0m/5.0m Double Outreach",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 630,
+      "benchmarkDirectCostPerUnit": 630,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Outreaches | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-POL-001",
+      "description": "11m Impact Absorbing Light Pole",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1000,
+      "benchmarkDirectCostPerUnit": 1000,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Public Lighting Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-POL-002",
+      "description": "11m Joint Use Pole",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1500,
+      "benchmarkDirectCostPerUnit": 1500,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Public Lighting Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-POL-003",
+      "description": "11m Rigid Plate Set Pole",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1000,
+      "benchmarkDirectCostPerUnit": 1000,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Public Lighting Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-POL-004",
+      "description": "11m Slip Base Light Pole",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 900,
+      "benchmarkDirectCostPerUnit": 900,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Public Lighting Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-POL-005",
+      "description": "13.5m Impact Absorbing Light Pole",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1450,
+      "benchmarkDirectCostPerUnit": 1450,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Public Lighting Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-POL-006",
+      "description": "13.5m Slip Base Light Pole",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1300,
+      "benchmarkDirectCostPerUnit": 1300,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Public Lighting Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-POL-007",
+      "description": "8.5m Impact Absorbing Light Pole",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 900,
+      "benchmarkDirectCostPerUnit": 900,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Public Lighting Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-POL-008",
+      "description": "General Sundries (per pole)",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 50,
+      "benchmarkDirectCostPerUnit": 50,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | General Items | Split: material-only from source rate"
+    },
+    {
+      "code": "LGT-POL-009",
+      "description": "Lighting Pole Install",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 5,
+      "materialPerUnit": 1800,
+      "benchmarkDirectCostPerUnit": 2275,
+      "notes": "Public lighting pole"
+    },
+    {
+      "code": "LGT-REM-001",
+      "description": "Waste/Spoil Removal",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 2,
+      "materialPerUnit": 810,
+      "benchmarkDirectCostPerUnit": 1000,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | General Items | Split: derived labour + residual material"
+    },
+    {
+      "code": "LGT-SHD-001",
+      "description": "Yarra Trams Shut Down",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 24.21,
+      "materialPerUnit": 0.05,
+      "benchmarkDirectCostPerUnit": 2300,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | General Items | Split: derived labour + residual material"
+    },
+    {
+      "code": "LGT-SRV-001",
+      "description": "Survey of Services",
+      "category": "Lighting",
+      "unit": "ea",
+      "labourHoursPerUnit": 10.53,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 1000.35,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Dial Before You Dig | Split: labour-only derived from source rate"
+    },
+    {
+      "code": "SIG-ACC-001",
+      "description": "Puffins",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 900,
+      "benchmarkDirectCostPerUnit": 900,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Accessories | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-BRK-001",
+      "description": "\"Z\" Brackets",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 40,
+      "benchmarkDirectCostPerUnit": 40,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Accessories | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-BRK-002",
+      "description": "2 Way Lower Mounting Bracket",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 20,
+      "benchmarkDirectCostPerUnit": 20,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Accessories | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-BRK-003",
+      "description": "Mounting Bracket",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 10,
+      "benchmarkDirectCostPerUnit": 10,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Accessories | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-BTN-001",
+      "description": "Push Button Call Record c/w Transducer",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 155,
+      "benchmarkDirectCostPerUnit": 155,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Accessories | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-CTR-001",
+      "description": "Controller Install",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 8,
+      "materialPerUnit": 5000,
+      "benchmarkDirectCostPerUnit": 5760,
+      "notes": "Cabinet install and termination"
+    },
+    {
+      "code": "SIG-CTR-002",
+      "description": "Multi Group Controller",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 20000,
+      "benchmarkDirectCostPerUnit": 20000,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Controller | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-CTR-003",
+      "description": "Program Controller",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 7500,
+      "benchmarkDirectCostPerUnit": 7500,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Controller | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-001",
+      "description": "1 Aspect LED Lantern",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 320,
+      "benchmarkDirectCostPerUnit": 320,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-002",
+      "description": "13Way Upper Mounting Assembly",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 160,
+      "benchmarkDirectCostPerUnit": 160,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-003",
+      "description": "2 Aspect Aluminium Target Boards - 200mm",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 75,
+      "benchmarkDirectCostPerUnit": 75,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-004",
+      "description": "2 Aspect Arrow LED Lantern",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 478.8,
+      "benchmarkDirectCostPerUnit": 478.8,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-005",
+      "description": "2 Aspect LED Bicycle Lantern",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 530,
+      "benchmarkDirectCostPerUnit": 530,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-006",
+      "description": "2 Aspect LED Lantern",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 620,
+      "benchmarkDirectCostPerUnit": 620,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-007",
+      "description": "2 Aspect LED Pedestrian Lantern",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 430,
+      "benchmarkDirectCostPerUnit": 430,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-008",
+      "description": "3 Aspect \"B\" LED Lanterns",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 760,
+      "benchmarkDirectCostPerUnit": 760,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-009",
+      "description": "3 Aspect \"T\" LED Lanterns",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 760,
+      "benchmarkDirectCostPerUnit": 760,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-010",
+      "description": "3 Aspect \"U\" LED Lanterns",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 610,
+      "benchmarkDirectCostPerUnit": 610,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-011",
+      "description": "3 Aspect Aluminium Target Boards - 200mm",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 80,
+      "benchmarkDirectCostPerUnit": 80,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-012",
+      "description": "3 Aspect Arrow LED Lanterns",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 570,
+      "benchmarkDirectCostPerUnit": 570,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-013",
+      "description": "3 Aspect LED Bicycle Lantern",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 810,
+      "benchmarkDirectCostPerUnit": 810,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-014",
+      "description": "3 Aspect LED Lanterns",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 590,
+      "benchmarkDirectCostPerUnit": 590,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-015",
+      "description": "45 Deg Mounting kit - Flashing Ped Crossing",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 25,
+      "benchmarkDirectCostPerUnit": 25,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-016",
+      "description": "51Way Upper Mounting Assembly",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 285,
+      "benchmarkDirectCostPerUnit": 285,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-017",
+      "description": "6 Aspect Aluminium Target Boards - 200mm",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 100,
+      "benchmarkDirectCostPerUnit": 100,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-018",
+      "description": "Consumables",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 2,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 190,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Relocate & Connect existing Lanterns/Hardware | Split: labour-only derived from source rate"
+    },
+    {
+      "code": "SIG-LAN-019",
+      "description": "Installation of PROM (supplied by Vic Roads)",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Relocate & Connect existing Lanterns/Hardware | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-020",
+      "description": "JUP/JUMA Slides",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 290,
+      "benchmarkDirectCostPerUnit": 290,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-021",
+      "description": "K - Type Lantern",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1815,
+      "benchmarkDirectCostPerUnit": 1815,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-022",
+      "description": "L - Type Lantern",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1840,
+      "benchmarkDirectCostPerUnit": 1840,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-023",
+      "description": "S - Type Lantern",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1257,
+      "benchmarkDirectCostPerUnit": 1257,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LAN-024",
+      "description": "UPS System",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 2,
+      "materialPerUnit": 2310,
+      "benchmarkDirectCostPerUnit": 2500,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Relocate & Connect existing Lanterns/Hardware | Split: derived labour + residual material"
+    },
+    {
+      "code": "SIG-LAN-025",
+      "description": "Yarra Trams Shut Down",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 24.21,
+      "materialPerUnit": 0.05,
+      "benchmarkDirectCostPerUnit": 2300,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Relocate & Connect existing Lanterns/Hardware | Split: derived labour + residual material"
+    },
+    {
+      "code": "SIG-LAN-026",
+      "description": "Z - Type Lantern",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1180,
+      "benchmarkDirectCostPerUnit": 1180,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Lanterns | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-LOP-001",
+      "description": "Detector Loop Install",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 2.5,
+      "materialPerUnit": 450,
+      "benchmarkDirectCostPerUnit": 687.5,
+      "notes": "Single loop saw-cut and seal"
+    },
+    {
+      "code": "SIG-LOP-002",
+      "description": "Detector Loops - Cut in Asphalt",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 2,
+      "materialPerUnit": 710,
+      "benchmarkDirectCostPerUnit": 900,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Loops | Split: derived labour + residual material"
+    },
+    {
+      "code": "SIG-LOP-003",
+      "description": "Detector Loops - Laid under wearing course",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 2,
+      "materialPerUnit": 760,
+      "benchmarkDirectCostPerUnit": 950,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Loops | Split: derived labour + residual material"
+    },
+    {
+      "code": "SIG-LOP-004",
+      "description": "Yarra Trams Advance Tram Detection",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1800,
+      "benchmarkDirectCostPerUnit": 1800,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Loops | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-MGT-001",
+      "description": "As Built Drawings",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Management | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-MGT-002",
+      "description": "Pre Start Meeting",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Management | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-MGT-003",
+      "description": "Project Management",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Management | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-MGT-004",
+      "description": "Site Meetings",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Management | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-MGT-005",
+      "description": "Site Supervision",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Management | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-POL-001",
+      "description": "250W Flood Lights",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 2,
+      "materialPerUnit": 40,
+      "benchmarkDirectCostPerUnit": 230,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Supply and Install Steel Conduit on Pole | Split: derived labour + residual material"
+    },
+    {
+      "code": "SIG-POL-002",
+      "description": "6.2m Zebra Crossing MA",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1750,
+      "benchmarkDirectCostPerUnit": 1750,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Pedestals & Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-POL-003",
+      "description": "Flashing Control Unit - Flashing Ped Crossing",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 2,
+      "materialPerUnit": 260,
+      "benchmarkDirectCostPerUnit": 450,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Supply and Install Steel Conduit on Pole | Split: derived labour + residual material"
+    },
+    {
+      "code": "SIG-POL-004",
+      "description": "Signal Pole Install",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 6,
+      "materialPerUnit": 1200,
+      "benchmarkDirectCostPerUnit": 1770,
+      "notes": "Pole installation and checks"
+    },
+    {
+      "code": "SIG-POL-005",
+      "description": "Supply of 2A Pedestal",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 290,
+      "benchmarkDirectCostPerUnit": 290,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Pedestals & Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-POL-006",
+      "description": "Supply of 2B Pedestal",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 300,
+      "benchmarkDirectCostPerUnit": 300,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Pedestals & Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-POL-007",
+      "description": "Supply of 2D Pedestals",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1200,
+      "benchmarkDirectCostPerUnit": 1200,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Pedestals & Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-POL-008",
+      "description": "Supply of JUMA Pole (11m)",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 2658,
+      "benchmarkDirectCostPerUnit": 2658,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Pedestals & Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-POL-009",
+      "description": "Supply of JUP (11m)",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 1650,
+      "benchmarkDirectCostPerUnit": 1650,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Pedestals & Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-POL-010",
+      "description": "Supply of MA Pole (5.5x3.7)",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 2395,
+      "benchmarkDirectCostPerUnit": 2395,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Pedestals & Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-POL-011",
+      "description": "Supply of MA Pole (5.5x5.5)",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 2395,
+      "benchmarkDirectCostPerUnit": 2395,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Pedestals & Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-POL-012",
+      "description": "Supply of Type 3 Pedestal",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 220,
+      "benchmarkDirectCostPerUnit": 220,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Pedestals & Poles | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-ROU-001",
+      "description": "Intersection",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Routine Maintenance | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-SIG-001",
+      "description": "Installation of Signals on JUTP",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 8.42,
+      "materialPerUnit": 0.1,
+      "benchmarkDirectCostPerUnit": 800,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Downtime - Switch on at Night | Split: derived labour + residual material"
+    },
+    {
+      "code": "SIG-SIG-002",
+      "description": "Pedestrian Operated Signals",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Routine Maintenance | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-SUB-001",
+      "description": "Bucket Truck Hire (min 4hr charge)",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-SUB-002",
+      "description": "Crane Truck Hire (min 4hr charge)",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-SUB-003",
+      "description": "Dogman Hire (min 4hr charge)",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-SUB-004",
+      "description": "Nifty Lift",
+      "category": "Signals",
+      "unit": "day",
+      "labourHoursPerUnit": 2.42,
+      "materialPerUnit": 0.1,
+      "benchmarkDirectCostPerUnit": 230,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Subcontractors | Split: derived labour + residual material"
+    },
+    {
+      "code": "SIG-SUB-005",
+      "description": "Semi Crane Truck Hire (min 4hr charge)",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-SUB-006",
+      "description": "Spotter Hire (min 4hr charge)",
+      "category": "Signals",
+      "unit": "hr",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 0,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Subcontractors | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-VIS-001",
+      "description": "200 Pedestrian Visor",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 6.5,
+      "benchmarkDirectCostPerUnit": 6.5,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Visors | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-VIS-002",
+      "description": "200 x 200 Closed",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 4.5,
+      "benchmarkDirectCostPerUnit": 4.5,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Visors | Split: material-only from source rate"
+    },
+    {
+      "code": "SIG-VIS-003",
+      "description": "200 x 200 Open",
+      "category": "Signals",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 4.5,
+      "benchmarkDirectCostPerUnit": 4.5,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Visors | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-BRD-001",
+      "description": "Traffic Management (2men, vehicle & arrow board)",
+      "category": "Traffic Equipment",
+      "unit": "day",
+      "labourHoursPerUnit": 9.47,
+      "materialPerUnit": 0.35,
+      "benchmarkDirectCostPerUnit": 900,
+      "notes": "Source: LIBRARY.xlsx | Public Lighting | Subcontractors | Split: derived labour + residual material"
+    },
+    {
+      "code": "TFC-BRD-002",
+      "description": "Traffic Management (2men, vehicle & arrow board) - Day",
+      "category": "Traffic Equipment",
+      "unit": "day",
+      "labourHoursPerUnit": 9.47,
+      "materialPerUnit": 0.35,
+      "benchmarkDirectCostPerUnit": 900,
+      "notes": "Source: LIBRARY.xlsx | Civil | Subcontractors | Split: derived labour + residual material"
+    },
+    {
+      "code": "TFC-BRD-003",
+      "description": "Traffic Management (2men, vehicle & arrow board) - Night",
+      "category": "Traffic Equipment",
+      "unit": "day",
+      "labourHoursPerUnit": 16.84,
+      "materialPerUnit": 0.2,
+      "benchmarkDirectCostPerUnit": 1600,
+      "notes": "Source: LIBRARY.xlsx | Civil | Subcontractors | Split: derived labour + residual material"
+    },
+    {
+      "code": "TFC-BRD-004",
+      "description": "Traffic Management (2men, vehicle & arrow board) - Wknd",
+      "category": "Traffic Equipment",
+      "unit": "day",
+      "labourHoursPerUnit": 12.63,
+      "materialPerUnit": 0.15,
+      "benchmarkDirectCostPerUnit": 1200,
+      "notes": "Source: LIBRARY.xlsx | Civil | Subcontractors | Split: derived labour + residual material"
+    },
+    {
+      "code": "TFC-BRD-005",
+      "description": "Traffic Management (2men, vehicle & arrowboard)",
+      "category": "Traffic Equipment",
+      "unit": "day",
+      "labourHoursPerUnit": 9.47,
+      "materialPerUnit": 0.35,
+      "benchmarkDirectCostPerUnit": 900,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Subcontractors | Split: derived labour + residual material"
+    },
+    {
+      "code": "TFC-BRD-006",
+      "description": "Traffic Management (2men, vehicle & arrowboard) - Wknd",
+      "category": "Traffic Equipment",
+      "unit": "day",
+      "labourHoursPerUnit": 12.63,
+      "materialPerUnit": 0.15,
+      "benchmarkDirectCostPerUnit": 1200,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Subcontractors | Split: derived labour + residual material"
+    },
+    {
+      "code": "TFC-MGT-001",
+      "description": "Traffic Management Plans and MOA",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.89,
+      "materialPerUnit": 0.45,
+      "benchmarkDirectCostPerUnit": 180,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Subcontractors | Split: derived labour + residual material"
+    },
+    {
+      "code": "TFC-SGN-001",
+      "description": "LED GWTP",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 4000,
+      "benchmarkDirectCostPerUnit": 4000,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Signs | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-SGN-002",
+      "description": "LED NRT",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 4500,
+      "benchmarkDirectCostPerUnit": 4500,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Signs | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-SGN-003",
+      "description": "LED Speed Sign - 40Km",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 3900,
+      "benchmarkDirectCostPerUnit": 3900,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Signs | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-SGN-004",
+      "description": "LED Speed Sign - 50Km",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 3900,
+      "benchmarkDirectCostPerUnit": 3900,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Signs | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-SGN-005",
+      "description": "Make Good of Existing Verandah",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 1357.5,
+      "benchmarkDirectCostPerUnit": 1500,
+      "notes": "Source: LIBRARY.xlsx | Civil | Relocate existing signs | Split: derived labour + residual material"
+    },
+    {
+      "code": "TFC-SGN-006",
+      "description": "Prepare to Stop Sign with LED Insert",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 2300,
+      "benchmarkDirectCostPerUnit": 2300,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Signs | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-SGN-007",
+      "description": "RC1",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 6500,
+      "benchmarkDirectCostPerUnit": 6500,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Signs | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-SGN-008",
+      "description": "RC2",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 6000,
+      "benchmarkDirectCostPerUnit": 6000,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Signs | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-SGN-009",
+      "description": "RC3",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 23000,
+      "benchmarkDirectCostPerUnit": 23000,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | LED Signs | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-SGN-010",
+      "description": "Static Sign Posts/Spikes",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 100,
+      "benchmarkDirectCostPerUnit": 100,
+      "notes": "Source: LIBRARY.xlsx | Civil | General Items | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-SGN-011",
+      "description": "Static Signs",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 80,
+      "benchmarkDirectCostPerUnit": 80,
+      "notes": "Source: LIBRARY.xlsx | Civil | General Items | Split: material-only from source rate"
+    },
+    {
+      "code": "TFC-SGN-012",
+      "description": "Supply & Install Pedestrian Fencing",
+      "category": "Traffic Equipment",
+      "unit": "m",
+      "labourHoursPerUnit": 0.08,
+      "materialPerUnit": 172.4,
+      "benchmarkDirectCostPerUnit": 180,
+      "notes": "Source: LIBRARY.xlsx | Civil | Relocate existing signs | Split: derived labour + residual material"
+    },
+    {
+      "code": "TFC-SGN-013",
+      "description": "Supply & Install Tactiles",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 0,
+      "benchmarkDirectCostPerUnit": 142.5,
+      "notes": "Source: LIBRARY.xlsx | Civil | Relocate existing signs | Split: labour-only derived from source rate"
+    },
+    {
+      "code": "TFC-SGN-014",
+      "description": "Traffic Sign Install",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 180,
+      "benchmarkDirectCostPerUnit": 322.5,
+      "notes": "Standard sign install"
+    },
+    {
+      "code": "TFC-SUB-001",
+      "description": "Guardrail ($220 p/m supplied and installed)",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 1.5,
+      "materialPerUnit": 77.5,
+      "benchmarkDirectCostPerUnit": 220,
+      "notes": "Source: LIBRARY.xlsx | Civil | Subcontractors | Split: derived labour + residual material"
+    },
+    {
+      "code": "TFC-TAC-001",
+      "description": "Audio Tactiles",
+      "category": "Traffic Equipment",
+      "unit": "ea",
+      "labourHoursPerUnit": 0,
+      "materialPerUnit": 285,
+      "benchmarkDirectCostPerUnit": 285,
+      "notes": "Source: LIBRARY.xlsx | Traffic Signals | Accessories | Split: material-only from source rate"
+    }
+  ]
+}

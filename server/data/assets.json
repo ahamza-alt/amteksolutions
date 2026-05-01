@@ -1,0 +1,5 @@
+[
+  {"id":"A1","asset_code":"PL10","display_name":"PL10 - ViO80","asset_type":"Excavator","status":"Active","location":"Smith St"},
+  {"id":"A2","asset_code":"TR30","display_name":"TR30 - Fuso Tipper","asset_type":"Truck","status":"Active","location":"Smith St"},
+  {"id":"A3","asset_code":"PL17","display_name":"PL17 - SK714","asset_type":"Skid Steer","status":"Out of Service","location":"Workshop"}
+]

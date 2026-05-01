@@ -1,0 +1,14 @@
+[
+ {"id":"RL-001","category":"Labour","code":"LAB-LH","description":"Leading Hand - Traffic/Civil","unit":"hr","rate":95},
+ {"id":"RL-002","category":"Labour","code":"LAB-OP","description":"Plant Operator","unit":"hr","rate":88},
+ {"id":"RL-003","category":"Labour","code":"LAB-TC","description":"Traffic Controller","unit":"hr","rate":72},
+ {"id":"RL-004","category":"Plant","code":"PL10-VIO80","description":"PL10 - Yanmar ViO80 Excavator","unit":"day","rate":680},
+ {"id":"RL-005","category":"Plant","code":"TR30-FUSO","description":"TR30 - Fuso Tipper Truck","unit":"day","rate":610},
+ {"id":"RL-006","category":"Civil Works","code":"C2-2B-FTG","description":"Construct 2 / 2B Footings","unit":"item","rate":4850},
+ {"id":"RL-007","category":"Civil Works","code":"TRNCH","description":"Trenching and spoil removal","unit":"m","rate":165},
+ {"id":"RL-008","category":"Civil Works","code":"BACKFILL","description":"Backfill and compaction","unit":"m3","rate":125},
+ {"id":"RL-009","category":"Electrical Works","code":"CBL-HAUL","description":"Cable haul and pit connection","unit":"m","rate":42},
+ {"id":"RL-010","category":"Traffic Control","code":"TC-SETUP","description":"Traffic control setup and pack down","unit":"shift","rate":980},
+ {"id":"RL-011","category":"Materials","code":"CONC-25","description":"25MPa concrete supply allowance","unit":"m3","rate":285},
+ {"id":"RL-012","category":"Materials","code":"PIT-SUPPLY","description":"Electrical pit supply and install allowance","unit":"item","rate":1850}
+]

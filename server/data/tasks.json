@@ -1,0 +1,51 @@
+[
+  {
+    "id": "T-1777543121704-153",
+    "job_id": "J-1777543121674-379",
+    "phase": "Pre Install",
+    "name": "CIV-CON-013 - 2X100 DI",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777543121704-262",
+    "job_id": "J-1777543121674-379",
+    "phase": "Pre Install",
+    "name": "CIV-CON-012 - 1X63 DIA",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777543121704-71",
+    "job_id": "J-1777543121674-379",
+    "phase": "Pre Install",
+    "name": "CIV-CON-011 - 1X63 DIA",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777543121704-253",
+    "job_id": "J-1777543121674-379",
+    "phase": "Pre Install",
+    "name": "CIV-CON-010 - 1X63 DIA",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1001",
+    "job_id": "J-1001",
+    "phase": "Civil Works",
+    "name": "C2 / 2B FTG",
+    "status": "In Progress"
+  },
+  {
+    "id": "T-1002",
+    "job_id": "J-1001",
+    "phase": "Civil Works",
+    "name": "TRENCH",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1003",
+    "job_id": "J-1002",
+    "phase": "Electrical Works",
+    "name": "CBL HAUL",
+    "status": "Planned"
+  }
+]

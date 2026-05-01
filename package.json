@@ -1,0 +1,11 @@
+{
+  "name": "amtek-traffic-ops-working-stable",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "dev": "node server/index.js"
+  }
+}

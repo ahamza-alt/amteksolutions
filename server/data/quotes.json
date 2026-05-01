@@ -1,0 +1,170 @@
+[
+  {
+    "id": "Q-1777543119123-93",
+    "quote_number": "Q-1777543119103",
+    "client": "",
+    "site": "",
+    "status": "Awarded",
+    "scope": "",
+    "items": [
+      {
+        "code": "CIV-CON-010",
+        "description": "CIV-CON-010 - 1x63 DIA Conduits - Open Cut (Dirt or Footpath)",
+        "qty": 1,
+        "unit": "m",
+        "category": "Civil",
+        "labourHoursPerUnit": 0.12,
+        "materialPerUnit": 63.6,
+        "benchmarkDirectCostPerUnit": 75,
+        "notes": "Source: LIBRARY.xlsx | Public Lighting | Primary Conduit Installation | Split: derived labour + residual material",
+        "labourRate": 95,
+        "marginPct": 0.15,
+        "contingencyPct": 0.05,
+        "labourCost": 11.4,
+        "materialCost": 63.6,
+        "directCost": 75,
+        "margin": 11.25,
+        "contingency": 3.75,
+        "total": 90,
+        "rate": 90
+      },
+      {
+        "code": "CIV-CON-011",
+        "description": "CIV-CON-011 - 1x63 DIA Conduits - Open Cut (Road)",
+        "qty": 1,
+        "unit": "m",
+        "category": "Civil",
+        "labourHoursPerUnit": 0.12,
+        "materialPerUnit": 308.6,
+        "benchmarkDirectCostPerUnit": 320,
+        "notes": "Source: LIBRARY.xlsx | Public Lighting | Primary Conduit Installation | Split: derived labour + residual material",
+        "labourRate": 95,
+        "marginPct": 0.15,
+        "contingencyPct": 0.05,
+        "labourCost": 11.4,
+        "materialCost": 308.6,
+        "directCost": 320,
+        "margin": 48,
+        "contingency": 16,
+        "total": 384,
+        "rate": 384
+      },
+      {
+        "code": "CIV-CON-012",
+        "description": "CIV-CON-012 - 1x63 DIA HD Orange Conduit",
+        "qty": 1,
+        "unit": "m",
+        "category": "Civil",
+        "labourHoursPerUnit": 0,
+        "materialPerUnit": 3.25,
+        "benchmarkDirectCostPerUnit": 3.25,
+        "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate",
+        "labourRate": 95,
+        "marginPct": 0.15,
+        "contingencyPct": 0.05,
+        "labourCost": 0,
+        "materialCost": 3.25,
+        "directCost": 3.25,
+        "margin": 0.4875,
+        "contingency": 0.1625,
+        "total": 3.9,
+        "rate": 3.9
+      },
+      {
+        "code": "CIV-CON-013",
+        "description": "CIV-CON-013 - 2x100 DIA Conduits - Bored",
+        "qty": 1,
+        "unit": "m",
+        "category": "Civil",
+        "labourHoursPerUnit": 0.12,
+        "materialPerUnit": 138.6,
+        "benchmarkDirectCostPerUnit": 150,
+        "notes": "Source: LIBRARY.xlsx | Civil | Primary Conduit Installation | Split: derived labour + residual material",
+        "labourRate": 95,
+        "marginPct": 0.15,
+        "contingencyPct": 0.05,
+        "labourCost": 11.4,
+        "materialCost": 138.6,
+        "directCost": 150,
+        "margin": 22.5,
+        "contingency": 7.5,
+        "total": 180,
+        "rate": 180
+      },
+      {
+        "code": "CIV-CON-007",
+        "description": "CIV-CON-007 - 1x50 DIA HD Orange Conduit",
+        "qty": 1,
+        "unit": "m",
+        "category": "Civil",
+        "labourHoursPerUnit": 0,
+        "materialPerUnit": 2.8,
+        "benchmarkDirectCostPerUnit": 2.8,
+        "notes": "Source: LIBRARY.xlsx | Civil | Conduits & Bends | Split: material-only from source rate",
+        "labourRate": 95,
+        "marginPct": 0.15,
+        "contingencyPct": 0.05,
+        "labourCost": 0,
+        "materialCost": 2.8,
+        "directCost": 2.8,
+        "margin": 0.42,
+        "contingency": 0.13999999999999999,
+        "total": 3.36,
+        "rate": 3.36
+      }
+    ],
+    "total": 661.26,
+    "totals": {
+      "labour": 34.2,
+      "material": 516.85,
+      "direct": 551.05,
+      "margin": 82.6575,
+      "contingency": 27.552500000000002,
+      "total": 661.26
+    },
+    "updated_at": "2026-05-01T01:29:45.227Z",
+    "converted_job_id": "J-1777543121674-379"
+  },
+  {
+    "id": "Q-1001",
+    "quote_number": "Q-1001",
+    "client": "Metro Civil Group",
+    "site": "Smith St Intersection Upgrade",
+    "status": "Awarded",
+    "scope": "Signals upgrade and civil installation works",
+    "items": [
+      {
+        "description": "C2 / 2B Footings",
+        "qty": 2,
+        "rate": 18500
+      },
+      {
+        "description": "Trenching and backfill",
+        "qty": 1,
+        "rate": 12600
+      }
+    ],
+    "created_at": "2026-04-29T00:00:00.000Z"
+  },
+  {
+    "id": "Q-1002",
+    "quote_number": "Q-1002",
+    "client": "EastGrid Services",
+    "site": "Brown Rd Signal Upgrade",
+    "status": "Sent",
+    "scope": "Electrical upgrade and cabling works",
+    "items": [
+      {
+        "description": "Cable haul",
+        "qty": 1,
+        "rate": 22750
+      },
+      {
+        "description": "Pit connections",
+        "qty": 4,
+        "rate": 3200
+      }
+    ],
+    "created_at": "2026-04-29T00:00:00.000Z"
+  }
+]

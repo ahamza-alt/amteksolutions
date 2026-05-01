@@ -1,0 +1,7 @@
+[
+  {"id":"S1","full_name":"Jack Kelly","short_name":"JK","role":"Leading Hand","trade":"Civil","status":"On Site"},
+  {"id":"S2","full_name":"Mia Turner","short_name":"MT","role":"Operator","trade":"Civil","status":"On Site"},
+  {"id":"S3","full_name":"Luca Costa","short_name":"LC","role":"Labourer","trade":"Civil","status":"Sick"},
+  {"id":"S4","full_name":"Chloe Hart","short_name":"CH","role":"Electrician","trade":"Electrical","status":"Scheduled"},
+  {"id":"S5","full_name":"Alex Brown","short_name":"AB","role":"Electrician","trade":"Electrical","status":"Available"}
+]
