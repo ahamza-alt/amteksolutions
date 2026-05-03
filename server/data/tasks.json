@@ -1,5 +1,19 @@
 [
   {
+    "id": "T-1777815993371-211",
+    "job_id": "J-1777815993371-756",
+    "phase": "Pre Install",
+    "name": "PIT CONNECTIONS",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777815993371-712",
+    "job_id": "J-1777815993371-756",
+    "phase": "Pre Install",
+    "name": "CABLE HAUL",
+    "status": "Planned"
+  },
+  {
     "id": "T-1777722246668-590",
     "job_id": "J-1777722246668-854",
     "phase": "Pre Install",
