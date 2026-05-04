@@ -1,7 +1,569 @@
 [
-  {"id":"S1","full_name":"Jack Kelly","short_name":"JK","role":"Leading Hand","trade":"Civil","status":"On Site"},
-  {"id":"S2","full_name":"Mia Turner","short_name":"MT","role":"Operator","trade":"Civil","status":"On Site"},
-  {"id":"S3","full_name":"Luca Costa","short_name":"LC","role":"Labourer","trade":"Civil","status":"Sick"},
-  {"id":"S4","full_name":"Chloe Hart","short_name":"CH","role":"Electrician","trade":"Electrical","status":"Scheduled"},
-  {"id":"S5","full_name":"Alex Brown","short_name":"AB","role":"Electrician","trade":"Electrical","status":"Available"}
+  {
+    "id": "user_f66c9202a6d6469996ba713c84a09440",
+    "full_name": "Abdulhalim Zakaria",
+    "short_name": "AZ",
+    "first_name": "Abdulhalim",
+    "last_name": "Zakaria",
+    "email": "abdulhalim.zakaria@hotmail.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_809133b93e1d4e56a1e40296197e6f38",
+    "full_name": "Accounts Amtek",
+    "short_name": "AA",
+    "first_name": "Accounts",
+    "last_name": "Amtek",
+    "email": "accounts@amteksol.com.au",
+    "role": "Project Support",
+    "trade": "Projects",
+    "group": "Projects",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_24fe4809c2ca44f8ae983a44fe4bccad",
+    "full_name": "Ahmed Hamza",
+    "short_name": "AH",
+    "first_name": "Ahmed",
+    "last_name": "Hamza",
+    "email": "ahamza@amteksol.com.au",
+    "role": "Administrator",
+    "trade": "Administrator",
+    "group": "Administrator",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_1f29cb4e64374cbcaa40353ce2b9d37d",
+    "full_name": "Andrija Ivanovic",
+    "short_name": "AI",
+    "first_name": "Andrija",
+    "last_name": "Ivanovic",
+    "email": "andrija05.i@icloud.com",
+    "role": "Electrical Crew",
+    "trade": "Electrical",
+    "group": "Electrical",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_99ea1eff821d456992f33f5d09c50df2",
+    "full_name": "Anthony Kelly",
+    "short_name": "AK",
+    "first_name": "Anthony",
+    "last_name": "Kelly",
+    "email": "akelly@amteksol.com.au",
+    "role": "Electrical Crew",
+    "trade": "Electrical",
+    "group": "Electrical",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_4f0dce83c12c48afbbbcb96d3dffc6ec",
+    "full_name": "Brad Maxwell",
+    "short_name": "BM",
+    "first_name": "Brad",
+    "last_name": "Maxwell",
+    "email": "bmaxwell@amteksol.com.au",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_6495d8e33b13494b91254fe7c884d772",
+    "full_name": "Cameron Casson",
+    "short_name": "CC",
+    "first_name": "Cameron",
+    "last_name": "Casson",
+    "email": "cecasson13@gmail.com",
+    "role": "Electrical Crew",
+    "trade": "Electrical",
+    "group": "Electrical",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_c42fd2065209498187bcbb84bfd21742",
+    "full_name": "Connor Larkin",
+    "short_name": "CL",
+    "first_name": "Connor",
+    "last_name": "Larkin",
+    "email": "larkinconnor13@gmail.com",
+    "role": "Electrical Crew",
+    "trade": "Electrical",
+    "group": "Electrical",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_6e64163309844d238bfdd5a5a7834abf",
+    "full_name": "Daniel Ellul",
+    "short_name": "DE",
+    "first_name": "Daniel",
+    "last_name": "Ellul",
+    "email": "dlellul@bigpond.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_3a11fe74661e49dcbb8d977274686a67",
+    "full_name": "Daniel Kelly",
+    "short_name": "DK",
+    "first_name": "Daniel",
+    "last_name": "Kelly",
+    "email": "daniel1kelly@icloud.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_0ca72fe6a7b84d538bea7e7190aaf30f",
+    "full_name": "Darcy Whelan",
+    "short_name": "DW",
+    "first_name": "Darcy",
+    "last_name": "Whelan",
+    "email": "darcywhelan@hotmail.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_3ea09e461ab14be19a9cb47536e6eb9c",
+    "full_name": "Dylan Coventry",
+    "short_name": "DC",
+    "first_name": "Dylan",
+    "last_name": "Coventry",
+    "email": "dcoventry@amteksol.com.au",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_8eea862be7c8468a9fda3899762e6625",
+    "full_name": "Eddie Limic",
+    "short_name": "EL",
+    "first_name": "Eddie",
+    "last_name": "Limic",
+    "email": "eddielimic@outlook.com.au",
+    "role": "Electrical Crew",
+    "trade": "Electrical",
+    "group": "Electrical",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_c52fdee6a5e94a2fbcbb31533ef0b6d5",
+    "full_name": "Jamie Naidu",
+    "short_name": "JN",
+    "first_name": "Jamie",
+    "last_name": "Naidu",
+    "email": "jamienaidu89@gmail.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_181ed26f715447ffbfd55daa30afe64f",
+    "full_name": "Licinio Sanchez",
+    "short_name": "LS",
+    "first_name": "Licinio",
+    "last_name": "Sanchez",
+    "email": "ljnmaubara@gmail.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_c729655baacd463ea14d77168dc53e68",
+    "full_name": "Majid Muhammad",
+    "short_name": "MM",
+    "first_name": "Majid",
+    "last_name": "Muhammad",
+    "email": "mmajid@amteksol.com.au",
+    "role": "Management",
+    "trade": "Management",
+    "group": "Management",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_92cea37365d54d339f479b80fa5340ed",
+    "full_name": "Matthew Longhurst",
+    "short_name": "ML",
+    "first_name": "Matthew",
+    "last_name": "Longhurst",
+    "email": "matty__87@hotmail.com",
+    "role": "Electrical Crew",
+    "trade": "Electrical",
+    "group": "Electrical",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_2cc6555c251640efb45c8bdb2b5d1646",
+    "full_name": "Michael Elkhouri",
+    "short_name": "ME",
+    "first_name": "Michael",
+    "last_name": "Elkhouri",
+    "email": "michael_e99@outlook.com",
+    "role": "Electrical Crew",
+    "trade": "Electrical",
+    "group": "Electrical",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_22e9fb96880c4f9b8700d60893db1fdb",
+    "full_name": "Michael Leusu",
+    "short_name": "ML2",
+    "first_name": "Michael",
+    "last_name": "Leusu",
+    "email": "miketennleusu@hotmail.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_6c0b7e9653d340b3b5fb1057d9ff6fcb",
+    "full_name": "Mikehel Whelan",
+    "short_name": "MW",
+    "first_name": "Mikehel",
+    "last_name": "Whelan",
+    "email": "mikeywhelan22@gmail.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_22e3ab4e51a84c688aed53b30cb8b805",
+    "full_name": "Mohamed Hamza",
+    "short_name": "MH",
+    "first_name": "Mohamed",
+    "last_name": "Hamza",
+    "email": "mhamza@amteksol.com.au",
+    "role": "Management",
+    "trade": "Management",
+    "group": "Management",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_7cf0fde1cfbd41e5888fc0d63a27e374",
+    "full_name": "Monique Armstrong",
+    "short_name": "MA",
+    "first_name": "Monique",
+    "last_name": "Armstrong",
+    "email": "admin@amteksol.com.au",
+    "role": "Management",
+    "trade": "Management",
+    "group": "Management",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_1ada868a312a42fc9e398d3dc972fd01",
+    "full_name": "Nathan Whelan",
+    "short_name": "NW",
+    "first_name": "Nathan",
+    "last_name": "Whelan",
+    "email": "nathanw@enviroexcavations.com.au",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_2f9461924cf14f0287bd98a0a964c7a9",
+    "full_name": "Oscar Daniel",
+    "short_name": "OD",
+    "first_name": "Oscar",
+    "last_name": "Daniel",
+    "email": "oscardaniell100@gmail.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_b0b035ebe95241c6830c81cb270475dc",
+    "full_name": "Robert Kisfalusi",
+    "short_name": "RK",
+    "first_name": "Robert",
+    "last_name": "Kisfalusi",
+    "email": "r.kisfalusi@hotmail.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_bf76c36e7df5492b807b1e36239ff8d7",
+    "full_name": "Shane Edwards",
+    "short_name": "SE",
+    "first_name": "Shane",
+    "last_name": "Edwards",
+    "email": "shaneothegreat@gmail.com",
+    "role": "Civil Crew",
+    "trade": "Civil",
+    "group": "Civil",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  },
+  {
+    "id": "user_6f369a716e084e16a850a84ac40d0d09",
+    "full_name": "Warren Haeusler",
+    "short_name": "WH",
+    "first_name": "Warren",
+    "last_name": "Haeusler",
+    "email": "warrenhaeusler@hotmail.com",
+    "role": "Electrical Crew",
+    "trade": "Electrical",
+    "group": "Electrical",
+    "status": "Active",
+    "training": [
+      "Site induction",
+      "AMTEK safety induction"
+    ],
+    "licences": [
+      "Driver licence / ID pending entry"
+    ],
+    "tickets": [],
+    "notes": "Imported from users export."
+  }
 ]
