@@ -1,5 +1,47 @@
 [
-  {"id":"A1","asset_code":"PL10","display_name":"PL10 - ViO80","asset_type":"Excavator","status":"Active","location":"Smith St"},
-  {"id":"A2","asset_code":"TR30","display_name":"TR30 - Fuso Tipper","asset_type":"Truck","status":"Active","location":"Smith St"},
-  {"id":"A3","asset_code":"PL17","display_name":"PL17 - SK714","asset_type":"Skid Steer","status":"Out of Service","location":"Workshop"}
+  {
+    "id": "A1",
+    "asset_code": "PL10",
+    "display_name": "PL10 - ViO80",
+    "asset_type": "Excavator",
+    "status": "Active",
+    "location": "Smith St",
+    "code": "PL10",
+    "name": "PL10 - ViO80",
+    "type": "Excavator",
+    "site": "Smith St",
+    "image": "/equipment/pl010.jpg",
+    "equipment_code": "PL010",
+    "registration": "PL10"
+  },
+  {
+    "id": "A2",
+    "asset_code": "TR30",
+    "display_name": "TR30 - Fuso Tipper",
+    "asset_type": "Truck",
+    "status": "Active",
+    "location": "Smith St",
+    "code": "TR30",
+    "name": "TR30 - Fuso Tipper",
+    "type": "Truck",
+    "site": "Smith St",
+    "image": "/equipment/lcv030.jpg",
+    "equipment_code": "LCV030",
+    "registration": "TR30"
+  },
+  {
+    "id": "A3",
+    "asset_code": "PL17",
+    "display_name": "PL17 - SK714",
+    "asset_type": "Skid Steer",
+    "status": "Out of Service",
+    "location": "Workshop",
+    "code": "PL17",
+    "name": "PL17 - SK714",
+    "type": "Skid Steer",
+    "site": "Workshop",
+    "image": "/equipment/pl017.jpg",
+    "equipment_code": "PL017",
+    "registration": "PL17"
+  }
 ]
