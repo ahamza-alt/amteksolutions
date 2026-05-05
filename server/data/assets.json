@@ -1,47 +1,108 @@
 [
   {
     "id": "A1",
-    "asset_code": "PL10",
-    "display_name": "PL10 - ViO80",
-    "asset_type": "Excavator",
+    "asset_code": "HCV010",
+    "display_name": "HCV010 - Mitsubishi FK417KS Flat Tray",
+    "asset_type": "Heavy Commercial Vehicle",
     "status": "Active",
-    "location": "Smith St",
-    "code": "PL10",
-    "name": "PL10 - ViO80",
-    "type": "Excavator",
-    "site": "Smith St",
-    "image": "/equipment/pl010.jpg",
-    "equipment_code": "PL010",
-    "registration": "PL10"
+    "location": "Depot",
+    "code": "HCV010",
+    "name": "HCV010 - Mitsubishi FK417KS Flat Tray",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv010.jpg",
+    "equipment_code": "HCV010",
+    "registration": "HCV010",
+    "service": "Pre-start current. Next service pending entry.",
+    "documents": "",
+    "profile": {
+      "photos": [
+        {
+          "title": "Profile photo",
+          "date": "2026-05-04",
+          "url": "/equipment/hcv010.jpg",
+          "notes": "Primary asset image loaded from equipment manifest."
+        }
+      ],
+      "audits": [
+        {
+          "title": "Pre-start checklist",
+          "date": "2026-05-04",
+          "status": "Current",
+          "notes": "Daily pre-start and inspection records attach here."
+        }
+      ],
+      "services": [
+        {
+          "title": "Service status",
+          "date": "2026-05-04",
+          "status": "Pre-start current. Next service pending entry.",
+          "notes": "Repairs, defects and scheduled service records."
+        }
+      ],
+      "rego": [
+        {
+          "title": "HCV010",
+          "date": "",
+          "status": "Active",
+          "notes": "Registration, insurance and expiry details."
+        }
+      ],
+      "documents": [],
+      "defects": []
+    }
   },
   {
     "id": "A2",
-    "asset_code": "TR30",
-    "display_name": "TR30 - Fuso Tipper",
-    "asset_type": "Truck",
+    "asset_code": "HCV011",
+    "display_name": "HCV011 - Isuzu NPR275 Tipper",
+    "asset_type": "Heavy Commercial Vehicle",
     "status": "Active",
-    "location": "Smith St",
-    "code": "TR30",
-    "name": "TR30 - Fuso Tipper",
-    "type": "Truck",
-    "site": "Smith St",
-    "image": "/equipment/lcv030.jpg",
-    "equipment_code": "LCV030",
-    "registration": "TR30"
-  },
-  {
-    "id": "A3",
-    "asset_code": "PL17",
-    "display_name": "PL17 - SK714",
-    "asset_type": "Skid Steer",
-    "status": "Out of Service",
-    "location": "Workshop",
-    "code": "PL17",
-    "name": "PL17 - SK714",
-    "type": "Skid Steer",
-    "site": "Workshop",
-    "image": "/equipment/pl017.jpg",
-    "equipment_code": "PL017",
-    "registration": "PL17"
+    "location": "Depot",
+    "code": "HCV011",
+    "name": "HCV011 - Isuzu NPR275 Tipper",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv011.jpg",
+    "equipment_code": "HCV011",
+    "registration": "HCV011",
+    "service": "Pre-start current. Next service pending entry.",
+    "documents": "",
+    "profile": {
+      "photos": [
+        {
+          "title": "Profile photo",
+          "date": "2026-05-04",
+          "url": "/equipment/hcv011.jpg",
+          "notes": "Primary asset image loaded from equipment manifest."
+        }
+      ],
+      "audits": [
+        {
+          "title": "Pre-start checklist",
+          "date": "2026-05-04",
+          "status": "Current",
+          "notes": "Daily pre-start and inspection records attach here."
+        }
+      ],
+      "services": [
+        {
+          "title": "Service status",
+          "date": "2026-05-04",
+          "status": "Pre-start current. Next service pending entry.",
+          "notes": "Repairs, defects and scheduled service records."
+        }
+      ],
+      "rego": [
+        {
+          "title": "HCV011",
+          "date": "",
+          "status": "Active",
+          "notes": "Registration, insurance and expiry details."
+        }
+      ],
+      "documents": [],
+      "defects": []
+    }
   }
 ]
