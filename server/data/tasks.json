@@ -1,5 +1,149 @@
 [
   {
+    "id": "T-1777991661538-797",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "ELE-POL-002 - REMOVAL ",
+    "status": "In Progress",
+    "updated_at": "2026-05-05T14:35:02.283Z"
+  },
+  {
+    "id": "T-1777991661538-746",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "ELE-SUB-001 - BUCKET T",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-144",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "COM-COM-001 - TESTING ",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-137",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-SUB-002 - LINE MAR",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-342",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-SUB-003 - SUCKER T",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-265",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-POL-001 - 1X20 DIA",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-686",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-POL-002 - 1X50 DIA",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-821",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-PIT-004 - PIT INST",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-271",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-PIT-003 - P4 COMMU",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-626",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-PIT-002 - DETECTOR",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-427",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-PIT-001 - BREAK IN",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-759",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-CON-016 - 2X125 DI",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-419",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-CON-017 - 4X125 DI",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-889",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-CON-021 - 63MM SPI",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-874",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-CON-006 - 1X125 DI",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-179",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-CON-002 - 100MM SI",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777991661538-895",
+    "job_id": "J-1777991661537-852",
+    "phase": "Pre Install",
+    "name": "CIV-CON-003 - 1X100 DI",
+    "status": "Planned"
+  },
+  {
+    "id": "T-1777966806247-110",
+    "job_id": "J-1777966806246-631",
+    "phase": "Pre Install",
+    "name": "CIV-DIA-001 - NON DEST",
+    "status": "In Progress",
+    "updated_at": "2026-05-05T07:40:18.251Z"
+  },
+  {
+    "id": "T-1777966806247-305",
+    "job_id": "J-1777966806246-631",
+    "phase": "Pre Install",
+    "name": "CIV-CON-026 - MARKER T",
+    "status": "Done",
+    "updated_at": "2026-05-05T07:40:21.567Z"
+  },
+  {
+    "id": "T-1777966806247-337",
+    "job_id": "J-1777966806246-631",
+    "phase": "Pre Install",
+    "name": "CIV-CON-025 - DRAW STR",
+    "status": "In Progress",
+    "updated_at": "2026-05-05T07:40:23.938Z"
+  },
+  {
     "id": "T-1777815993371-211",
     "job_id": "J-1777815993371-756",
     "phase": "Pre Install",
