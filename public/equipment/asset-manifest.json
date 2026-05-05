@@ -1,0 +1,275 @@
+[
+  {
+    "code": "HCV010",
+    "name": "Mitsubishi FK417KS Flat Tray",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv010.jpg"
+  },
+  {
+    "code": "HCV011",
+    "name": "Isuzu NPR275 Tipper",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv011.jpg"
+  },
+  {
+    "code": "HCV012",
+    "name": "Isuzu FRR500 Crane/Tipper",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv012.jpg"
+  },
+  {
+    "code": "HCV013",
+    "name": "Hino GHJ1 Tipper",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv013.jpg"
+  },
+  {
+    "code": "HCV014",
+    "name": "Hino FC1018-500 Beavertail",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv014.jpg"
+  },
+  {
+    "code": "HCV015",
+    "name": "Isuzu NPR275 Hyab/Tipper",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv015.jpg"
+  },
+  {
+    "code": "HCV016",
+    "name": "Mitsubishi Fuso 1424 Beavertail",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv016.jpg"
+  },
+  {
+    "code": "HCV017",
+    "name": "Mitsubishi Fuso 1124 Tipper",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv017.jpg"
+  },
+  {
+    "code": "HCV018",
+    "name": "Mitsubishi Fuso 1424 Beavertail",
+    "type": "Heavy Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/hcv018.jpg"
+  },
+  {
+    "code": "LCV010",
+    "name": "Toyota Hilux - Cab Chassis Tray",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv010.jpg"
+  },
+  {
+    "code": "LCV011",
+    "name": "Mitsubishi Triton - Dual Cab Canopy",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv011.jpg"
+  },
+  {
+    "code": "LCV012",
+    "name": "VW Amarok - Dual Cab Tray",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv012.jpg"
+  },
+  {
+    "code": "LCV013",
+    "name": "Toyota Hiace - Van",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv013.jpg"
+  },
+  {
+    "code": "LCV014",
+    "name": "Mitsubishi Triton - Dual Cab",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv014.jpg"
+  },
+  {
+    "code": "LCV015",
+    "name": "Mitsubishi Triton - Dual Cab Tub",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv015.jpg"
+  },
+  {
+    "code": "LCV016",
+    "name": "Mitsubishi Triton - Dual Cab Tray",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv016.jpg"
+  },
+  {
+    "code": "LCV017",
+    "name": "Mitsubishi Triton - Dual Cab Tub",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv017.jpg"
+  },
+  {
+    "code": "LCV018",
+    "name": "Mitsubishi Triton - Dual Cab Tub",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv018.jpg"
+  },
+  {
+    "code": "LCV019",
+    "name": "Mitsubishi Triton - Dual Cab Tub",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv019.jpg"
+  },
+  {
+    "code": "LCV020",
+    "name": "Mitsubishi Triton - Dual Cab Tub",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv020.jpg"
+  },
+  {
+    "code": "LCV021",
+    "name": "Isuzu D-Max - Cab Chassis Tray",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv021.jpg"
+  },
+  {
+    "code": "LCV022",
+    "name": "Toyota Hilux - Cab Chassis Tray",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv022.jpg"
+  },
+  {
+    "code": "LCV023",
+    "name": "Toyota Hilux - Cab Chassis Tray",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv023.jpg"
+  },
+  {
+    "code": "LCV029",
+    "name": "Isuzu NPR200 - Tray",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv029.jpg"
+  },
+  {
+    "code": "LCV030",
+    "name": "Mitsubishi Fuso615 - Tipper",
+    "type": "Light Commercial Vehicle",
+    "site": "Depot",
+    "image": "/equipment/lcv030.jpg"
+  },
+  {
+    "code": "PL021",
+    "name": "Box Trailer",
+    "type": "Trailer",
+    "site": "Depot",
+    "image": "/equipment/pl021.jpg"
+  },
+  {
+    "code": "PL022",
+    "name": "Cable Trailer",
+    "type": "Trailer",
+    "site": "Depot",
+    "image": "/equipment/pl022.jpg"
+  },
+  {
+    "code": "PL023",
+    "name": "Hydraulic Cable Trailer",
+    "type": "Trailer",
+    "site": "Depot",
+    "image": "/equipment/pl023.jpg"
+  },
+  {
+    "code": "PL027",
+    "name": "Beavertail Plant Trailer",
+    "type": "Trailer",
+    "site": "Depot",
+    "image": "/equipment/pl027.jpg"
+  },
+  {
+    "code": "PL010",
+    "name": "Vio20 Mini Excavator",
+    "type": "Plant",
+    "site": "Depot",
+    "image": "/equipment/pl010.jpg"
+  },
+  {
+    "code": "PL011",
+    "name": "Kubota U25-3 Excavator",
+    "type": "Plant",
+    "site": "Depot",
+    "image": "/equipment/pl011.jpg"
+  },
+  {
+    "code": "PL012",
+    "name": "Yanmar ViO27 Excavator",
+    "type": "Plant",
+    "site": "Depot",
+    "image": "/equipment/pl012.jpg"
+  },
+  {
+    "code": "PL013",
+    "name": "Yanmar ViO27 Excavator",
+    "type": "Plant",
+    "site": "Depot",
+    "image": "/equipment/pl013.jpg"
+  },
+  {
+    "code": "PL014",
+    "name": "Yanmar ViO55-6B Excavator",
+    "type": "Plant",
+    "site": "Depot",
+    "image": "/equipment/pl014.jpg"
+  },
+  {
+    "code": "PL015",
+    "name": "Yanmar ViO55-6B Excavator",
+    "type": "Plant",
+    "site": "Depot",
+    "image": "/equipment/pl015.jpg"
+  },
+  {
+    "code": "PL016",
+    "name": "Yanmar ViO80 Excavator",
+    "type": "Plant",
+    "site": "Depot",
+    "image": "/equipment/pl016.jpg"
+  },
+  {
+    "code": "PL017",
+    "name": "Komatsu SK714 Skidsteer",
+    "type": "Plant",
+    "site": "Depot",
+    "image": "/equipment/pl017.jpg"
+  },
+  {
+    "code": "PL018",
+    "name": "16T Sany - SY 155U",
+    "type": "Plant",
+    "site": "Depot",
+    "image": "/equipment/pl018.jpg"
+  },
+  {
+    "code": "PL020",
+    "name": "JLG Scissor Lift",
+    "type": "Plant",
+    "site": "Depot",
+    "image": "/equipment/pl020.jpg"
+  }
+]
