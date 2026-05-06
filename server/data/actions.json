@@ -5,7 +5,7 @@
     "title": "Defect - LCV012",
     "owner": "AH",
     "priority": "Critical",
-    "status": "Open",
+    "status": "Resolved",
     "job_id": "",
     "job_number": "",
     "site": "Depot",
@@ -20,7 +20,7 @@
     },
     "photo_url": "",
     "created_at": "2026-05-05T08:22:52.887Z",
-    "updated_at": "2026-05-05T08:22:52.898Z"
+    "updated_at": "2026-05-05T14:42:14.421Z"
   },
   {
     "id": "ACT-1777969283057-605",
@@ -51,7 +51,7 @@
     "title": "Pre-start - HCV010",
     "owner": "AH",
     "priority": "Medium",
-    "status": "Open",
+    "status": "Closed",
     "job_id": "",
     "job_number": "",
     "site": "Depot",
@@ -66,6 +66,6 @@
     },
     "photo_url": "",
     "created_at": "2026-05-05T08:19:56.381Z",
-    "updated_at": "2026-05-05T08:19:56.391Z"
+    "updated_at": "2026-05-05T14:43:16.316Z"
   }
 ]
