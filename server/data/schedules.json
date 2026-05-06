@@ -5,10 +5,12 @@
     "site": "testing",
     "task": "Pre Install",
     "day": "Mon",
-    "status": "In Progress",
+    "status": "Planned",
     "staff": [],
-    "assets": [],
-    "updated_at": "2026-05-05T14:43:27.673Z"
+    "assets": [
+      "HCV011"
+    ],
+    "updated_at": "2026-05-06T06:30:37.700Z"
   },
   {
     "id": "SCH-1777991889838-79",

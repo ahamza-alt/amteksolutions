@@ -17,8 +17,18 @@
     "licences": [
       "Driver licence / ID pending entry"
     ],
-    "tickets": [],
-    "notes": "Imported from users export."
+    "tickets": [
+      {
+        "name": "",
+        "expiry": ""
+      },
+      {
+        "name": "",
+        "expiry": ""
+      }
+    ],
+    "notes": "Imported from users export.",
+    "updated_at": "2026-05-06T12:38:33.011Z"
   },
   {
     "id": "user_809133b93e1d4e56a1e40296197e6f38",
