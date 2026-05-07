@@ -1,6 +1,9 @@
 // AMTEK Projects Conflict Fix
 (function(){
   if (Array.isArray(modules)) { const m = modules.find(x => x[0] === 'jobs'); if (m) m[1] = 'Projects'; }
+  if (typeof document !== 'undefined' && document.querySelectorAll) {
+    document.querySelectorAll('[data-nav="jobs"]').forEach(b=>b.textContent='Projects');
+  }
   const previousModulePage = modulePage;
   const apiSafe = async (path, fallback=[]) => { try { return await api(path); } catch(e) { console.warn('safe api fallback', path); return fallback; } };
   const esc = v => typeof safe === 'function' ? safe(v) : String(v ?? '');
