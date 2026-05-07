@@ -1,0 +1,56 @@
+/* AMTEK UI Polish
+   Borrows the stronger visual language from the attached dashboard builds while keeping the current app structure intact. */
+
+:root{
+  --nav:#0d2236;
+  --nav2:#123a5f;
+  --blue:#1262d6;
+  --blue2:#0b5ed7;
+  --line:#dbe3ec;
+  --muted:#66758a;
+  --text:#122033;
+  --bg:#f4f6fa;
+  --panel:#fff;
+  --danger:#b91c1c;
+  --good:#047857;
+}
+
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);font-size:14px}
+button,input,select,textarea{font:inherit}
+button{border:0;border-radius:8px;background:#1262d6;color:#fff;font-weight:850;padding:9px 12px;cursor:pointer;box-shadow:0 1px 1px #0b1f3512}
+button:hover{filter:brightness(.96)}
+input,select,textarea{border:1px solid #d4deea;border-radius:8px;background:#fff;padding:10px;color:#122033;outline:none}
+input:focus,select:focus,textarea:focus{border-color:#1262d6;box-shadow:0 0 0 3px #1262d61a}
+
+.app{display:grid;grid-template-columns:250px 1fr;min-height:100vh;background:var(--bg)}
+.side{background:linear-gradient(180deg,#0d2236 0%,#123a5f 58%,#0b2033 100%);color:#eaf2fb;display:flex;flex-direction:column;position:sticky;top:0;height:100vh;border-radius:0 14px 14px 0;box-shadow:8px 0 24px #0b1f3514;overflow:hidden}
+.logoBox{padding:22px 18px 14px;display:flex;align-items:center;gap:12px;font-size:22px;font-weight:950;letter-spacing:.04em;border-bottom:1px solid #ffffff14}
+.logoBox img{width:44px;height:44px;object-fit:contain;border-radius:8px;background:#ffffff10;padding:4px}
+.side nav{padding:16px 12px;display:flex;flex-direction:column;gap:8px;overflow:auto}
+.side nav button{min-height:42px;border-radius:10px;background:transparent;color:#e9f3ff;display:flex;align-items:center;gap:10px;padding:0 13px;text-align:left;font-weight:800;letter-spacing:.1px;white-space:normal;box-shadow:none}
+.side nav button:hover{background:#ffffff12}
+.side nav button.active{background:#1464d9;box-shadow:inset 0 0 0 1px #4d92ff,0 8px 18px #06192a33}
+.logout{margin:14px;min-height:42px;background:#ffffff12;color:#eaf2fb;border:1px solid #ffffff20;box-shadow:none}
+main{min-width:0}
+.top{height:66px;background:#f9fbfe;border-bottom:1px solid #d9e2ec;display:flex;align-items:center;justify-content:space-between;padding:0 24px;gap:18px;position:sticky;top:0;z-index:10}
+.top h1{margin:0;font-size:22px;letter-spacing:-.02em}.top p{margin:3px 0 0;color:#66758a}.pill{background:#fff;border:1px solid #d9e2ec;border-radius:999px;padding:8px 12px;color:#334155;font-weight:800;white-space:nowrap}
+
+.loginPage{min-height:100vh;display:grid;grid-template-columns:1.2fr 430px;background:linear-gradient(90deg,#07111de8 0%,#07111db8 48%,#07111d66 100%),radial-gradient(circle at 20% 20%,#1b5fa8 0%,transparent 28%),linear-gradient(135deg,#07111d,#123a5f);color:#fff}
+.loginBrand{padding:70px;display:flex;flex-direction:column;justify-content:center}.loginBrand img{width:170px;max-width:70%;height:auto}.loginBrand h1{font-size:44px;margin:22px 0 10px}.loginBrand p{font-size:18px;color:#dbeafe;max-width:520px;line-height:1.5}.loginCard{align-self:center;margin:32px;background:#fffffff2;color:#122033;border-radius:14px;padding:28px;box-shadow:0 28px 80px #02061755}.loginCard h2{margin-top:0}.loginCard label{display:grid;gap:6px;margin:12px 0;font-weight:800}.loginCard button{width:100%;margin-top:10px;min-height:44px}.error{padding:10px;background:#fee2e2;color:#991b1b;border-radius:8px;margin:8px 0;font-weight:800}
+
+.page{padding:18px}.dash,.dashboard{padding:16px 18px 20px}.pageHead,.form,.record,table,.empty{background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:0 1px 2px #0b1f3508}.pageHead{display:flex;align-items:center;justify-content:space-between;padding:14px 16px;margin-bottom:14px;gap:12px}.pageHead h2,.pageHead h3{margin:0}.pageHead div,.actions{display:flex;gap:8px;flex-wrap:wrap}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.record{padding:16px;overflow:hidden}.record h2,.record h3{margin-top:0}.form{padding:18px;margin-bottom:16px}.formGrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}.form textarea{margin-top:10px;min-height:80px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:16px}.stat{background:#fff;border:1px solid var(--line);border-radius:8px;box-shadow:0 1px 2px #0b1f3508;padding:14px;display:grid;gap:4px;min-height:92px}.stat small{color:#64748b;font-weight:900;text-transform:uppercase;font-size:11px;letter-spacing:.04em}.stat strong{font-size:26px;line-height:1}.stat span{color:#64748b}.stat.danger{border-color:#fecaca;background:#fff7f7}.stat.danger strong{color:#b91c1c}
+.tag{display:inline-block;background:#e0f2fe;color:#075985;border-radius:999px;padding:5px 10px;margin:4px 4px 4px 0;font-size:12px;font-weight:900}.tag.danger,.danger .tag{background:#fee2e2!important;color:#991b1b!important}.dangerBtn{background:#fee2e2!important;color:#991b1b!important}.bubble{display:inline-block;background:#eef2ff;color:#3730a3;border-radius:999px;padding:4px 8px;margin:2px;font-size:12px;font-weight:900}.muted{color:#64748b}.empty{padding:30px;color:#64748b;text-align:center}.emptySmall{padding:14px;color:#64748b}
+.quoteToolbar{display:flex;gap:10px;margin:0 0 14px}.quoteToolbar input{flex:1;min-width:220px}.quoteToolbar select{min-width:150px}
+.miniRow{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid #edf2f7}.miniRow:last-child{border-bottom:0}.miniRow small{color:#64748b}
+table{width:100%;border-collapse:collapse;overflow:hidden}th,td{text-align:left;padding:12px;border-bottom:1px solid #e2e8f0;vertical-align:top}th{background:#f8fafc;text-transform:capitalize;font-size:12px;color:#475569;letter-spacing:.03em}tr:hover td{background:#f8fafc}
+
+/* Scheduling board improvements */
+#scheduleBoardBody>.record,#liveBoard>.record,#v2Board>.record,#plannerBoard>.record{border-left:5px solid #1262d6}.record[style*="background:#fafafa"]{border:1px solid #dbeafe!important;border-left:4px solid #2563eb!important;background:#fff!important}.record[style*="background:#fafafa"] .pageHead{box-shadow:none;background:#f8fbff;border-color:#dbeafe}
+
+/* Quote / line item polish */
+.library{border:1px solid #d9e2ec;border-radius:8px;background:#f8fafc;padding:12px;margin:14px 0}.libraryHead{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}.libRows{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:8px;max-height:290px;overflow:auto}.libItem{background:white;color:#172033;border:1px solid #d9e2ec;border-radius:8px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;text-align:left;padding:10px;font-weight:650;box-shadow:none}.quoteLine,.line{display:grid;grid-template-columns:1fr 90px 110px 120px 44px;gap:8px;align-items:center;margin-bottom:8px}.quoteTotals{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px;margin:14px 0}.quoteTotals div{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:10px;display:grid;gap:3px}.quoteTotals span{color:#64748b;font-weight:800}.quoteTotals b{font-size:18px}.quoteTotals .grand{background:#0d2236;color:#fff}.quoteTotals .grand span{color:#cbd5e1}
+
+@media(max-width:1100px){.app{grid-template-columns:92px 1fr}.logoBox span{display:none}.side nav button{justify-content:center;font-size:0}.side nav button::first-letter{font-size:14px}.top{padding:12px;height:auto}.pill{display:none}.quoteToolbar{flex-wrap:wrap}}
+@media(max-width:760px){.app{display:block}.side{position:relative;height:auto;border-radius:0}.side nav{flex-direction:row;overflow:auto}.side nav button{font-size:12px;min-width:116px;justify-content:center}.logoBox span{display:block}.top{position:relative;align-items:flex-start;flex-direction:column}.loginPage{grid-template-columns:1fr}.loginBrand{padding:36px}.loginCard{margin:20px}.stats{grid-template-columns:1fr}.quoteToolbar{display:grid}.cards{grid-template-columns:1fr}.miniRow{align-items:flex-start;flex-direction:column}}
