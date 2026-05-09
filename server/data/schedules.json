@@ -148,13 +148,12 @@
     "site": "Brown Rd Signal Upgrade",
     "task": "CBL HAUL",
     "day": "Tue",
-    "staff": [
-      "CH",
-      "AB"
-    ],
+    "staff": [],
     "assets": [
-      "TR30"
+      "HCV014"
     ],
-    "status": "Planned"
+    "status": "In Progress",
+    "updated_at": "2026-05-09T17:19:15.285Z",
+    "commenced_at": "2026-05-09T17:19:15.279Z"
   }
 ]
